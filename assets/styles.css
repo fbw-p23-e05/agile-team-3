@@ -9,3 +9,43 @@ h1 {
     color: #28262C;
     background-color: #998FC7;
 }
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.product-card {
+    border:1px solid #e0e0e0;
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition:box-shadow 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15)
+}
+
+.product-card img {
+    width:100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.button_store {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+button_store:hover {
+    background-color: #0056b3;
+}
