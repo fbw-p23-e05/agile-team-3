@@ -36,7 +36,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-button {
+.button_store {
     background-color: #007BFF;
     color: #fff;
     padding: 10px 15px;
@@ -46,6 +46,6 @@ button {
 
 }
 
-button:hover {
+button_store:hover {
     background-color: #0056b3;
 }
